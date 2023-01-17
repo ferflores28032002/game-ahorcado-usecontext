@@ -1,0 +1,86 @@
+[
+    {
+        "description": "Es una biblioteca Javascript de código abierto diseñada para crear interfaces de usuario con el objetivo de facilitar el desarrollo de aplicaciones en una sola página",
+        "encontrar": "REACTJS"
+    },
+    {
+        "description": "Es un framework de JavaScript de código abierto para la construcción de interfaces de usuario y aplicaciones de una sola página.",
+        "encontrar": "VUEJS"
+    },
+    {
+        "description": "Es un framework de JavaScript de código abierto, mantenido por Google, que se utiliza para crear y mantener aplicaciones web de una sola página.",
+        "encontrar": "ANGULARJS"
+    },
+    {
+        "description": "Es un entorno de tiempo de ejecución de JavaScript de back-end, se ejecuta en el motor de JavaScript V8 y ejecuta el código de JavaScript fuera de un navegador web",
+        "encontrar": "NODEJS"
+    },
+    {
+        "description":"Es un Hook que te permite añadir el estado de React a un componente de función",
+        "encontrar":"USESTATE"
+    },
+    {
+        "description": "Es un tipo de hook que se incorporó en la versión de React 16.8. Como su nombre indica, este hook nos permite definir efectos.",
+        "encontrar": "USEEFFECT"
+    },
+    {
+        "description":"En React es uno de los hooks más populares de esta librería de JavaScript después de useState, usado para declarar estados, y useEffect, usado para crear efectos",
+        "encontrar": "USEREF"
+    },
+    {
+        "description": "En React es uno de los hooks disponibles en esta librería JavaScript para devolver elementos memoizados. Es decir, funciona para mantener la referencia o dirección de memoria de un dato, del mismo modo que el hook useCallback nos permite mantener la referencia de una función",
+        "encontrar": "USEMEMO"
+    },
+    {
+        "description": "Efectos que protegen partes de nuestros componentes para evitar que se ejecuten en cada render, sino únicamente cuando realmente los necesitamos.",
+        "encontrar": "USELAYOUTEFFECT"
+    },
+    {
+        "description": "En React es un hook que introduce esta librería JavaScript como alternativa de consumidor de contexto ContextConsumer. Como puedes leer en nuestro post sobre contexto en React, el contexto es un tipo de atajo para compartir datos y funciones entre distintos componentes.",
+        "encontrar": "USECONTEXT"
+    },
+    {
+        "description": "Es un hook de React para actualizar un estado interno por medio de una función llamada reducer. redux es una arquitectura que nos permite abstraer el manejo de un estado global en una aplicación",
+        "encontrar": "USEREDUCER"
+    },
+    {
+        "description":"Tiene como objetivo simplificar Redux con una mejor abstracción y mas conveniente sobre el “texto original” del que se quejaron tantos desarrolladores.",
+        "encontrar": "REDUXTOOLKIT"
+    },
+    {
+        "description": "Es un componente avanzado de React que permite desarrollar formularios web a partir de un esquema de JSON. Sí, esto significa que a través de un esquema de JSON puedes tener de forma fácil un formulario HTML.",
+        "encontrar": "REACTJOSNSHEMAFORM"    
+    },
+    {
+        "description": "Son funciones que reciben el objeto de propiedades props como parámetro y devuelven elementos React. Entonces, podemos utilizar las propiedades que conforman el objeto props para ejecutar acciones automáticas",
+        "encontrar": "COMPONENTES"
+    },
+    {
+        "description":"Es una biblioteca de código abierto que ayuda a enviar todos estos tipos de solicitudes al proporcionar un método de cliente HTTP basado en la promesa llamado POST . En este artículo, POST aprenderá a usar los métodos de Axios tanto en JavaScript vanilla como en frameworks como React.",
+        "encontrar":"AXIOS"
+    },
+    {
+        "description": "Proporciona una interfaz JavaScript para acceder y manipular partes del canal HTTP, tales como peticiones y respuestas. También provee un método global fetch() (en-US) que proporciona una forma fácil y lógica de obtener recursos de forma asíncrona por la red.",
+        "encontrar": "FETCH"
+    },
+    {
+        "description": " Este hook nos devuelve la función navigate, que nos permite hacer redirecciones programáticas. Con esta función, podemos hacer lo mismo que con el componente navigate. Es decir, redirigir una URL al resultado de otra ruta.",
+        "encontrar": "USENAVIGATE"
+    },
+    {
+        "description": "La función de esta herramienta es simplificar la creación, redirección y anidación de rutas para crear una navegación dinámica.",
+        "encontrar": "USEPARAMS"
+    },
+    {
+        "description": "Es una librería que se utiliza bastante con React y que nos facilita el proceso de definir las rutas de navegación dentro de nuestra aplicación. Al igual que el propio React, esta librería usa una metodología declarativa en vez de imperativa",
+        "encontrar": "REACTROUTER"
+    },
+    {
+        "description": "En React Router funciona a partir de su propiedad to. En esta propiedad, asignamos como valor el enlace a la página que queremos llevar. Por debajo de link hay un elemento a. Sin embargo, React browser Router lo envuelve de una manera en la que no se fuerce la petición al servidor",
+        "encontrar": "LINK"
+    },
+    {
+        "description": "Es un tipo especial <Link> que puede activar una clase activa cuando esté en la ruta específica",
+        "encontrar": "NAVLINK"
+    }
+]
