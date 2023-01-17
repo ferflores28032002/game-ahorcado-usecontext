@@ -1,6 +1,11 @@
+import { useContext } from "react";
+import { GameContext } from "../context/GameContext";
 import { BtnLink } from "./BtnLink";
 
 export const Derrota = () => {
+
+  const { palaAdivinar } = useContext(GameContext)
+
   return (
     <div className="min-h-screen flex items-center justify-center px-4 bg-indigo-100">
       <div className="text-center">
@@ -9,7 +14,7 @@ export const Derrota = () => {
            ¡Lo sentimos! Has perdido, vuelve a jugar y demuestra que eres el mejor
           </p>
           <p>
-            La palabra correcta es: <strong>REACTJS</strong>
+            La palabra correcta es: <strong>{palaAdivinar}</strong>
           </p>
           <img
             className="w-32 border-gray-600 py-4"

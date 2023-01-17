@@ -10,6 +10,7 @@ export const GameProvider = ({ children }) => {
   const [correctas, setCorrectas] = useState([]);
   const [erroneas, setErroneas] = useState([]);
   const [imagen, setImagen] = useState(1);
+  const [palaAdivinar, setPalaAdivinar] = useState('')
   const navegacion = useNavigate();
   const coloresBtns = [
     "bg-white text-dark border border-indigo-50 hover:bg-indigo-200",
@@ -32,6 +33,7 @@ export const GameProvider = ({ children }) => {
       desc: PALABRAS[azar]?.description,
       pala: PALABRAS[azar]?.encontrar.split(""),
     });
+    setPalaAdivinar(PALABRAS[azar]?.encontrar)
   };
 
   const onLetras = (letra) => {
@@ -79,6 +81,7 @@ export const GameProvider = ({ children }) => {
         coloresBtns,
         victoryOrDerrota,
         imagen,
+        palaAdivinar
       }}
     >
       {children}
